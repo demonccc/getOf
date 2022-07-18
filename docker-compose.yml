@@ -5,7 +5,7 @@ services:
     user: root
     ports:
       - 3400:3400
-    container_name: mundose-docker
+    container_name: dh-docker
     volumes:
       - /tmp/cursose:/tmp
     networks:
